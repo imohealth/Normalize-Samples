@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+IMO® Precision Normalize API
+
+<p>IMO® Precision Normalize provides normalization capabilities enabling standardization of inconsistent clinical data from diverse health information systems to a common, clinically validated terminology to ensure that problems, procedures, and medications have clean, enriched, and consistent meanings. This API normalizes input terms or codes to IMO identifiers.</p> <p>The information provided is confidential and proprietary. Any use of this outside an agreement or engagement with IMO is prohibited.</p>
+
+The version of the OpenAPI document: 1.0.0
+Contact: customersupport@imo-online.com
+-->
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6A444077-DFB4-4E11-935A-DEC32B625B4D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IMO.NormalizeSearch.SDK</RootNamespace>
+    <AssemblyName>IMO.NormalizeSearch.SDK</AssemblyName>
+    <Description>A library generated from a OpenAPI doc</Description>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <FileAlignment>512</FileAlignment>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\IMO.NormalizeSearch.SDK.xml</DocumentationFile>
+    <RepositoryUrl>http://prd-tfsfpv01:8080/tfs/Collection01/IMO/_git/Normalize-search</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>http://prd-tfsfpv01:8080/tfs/Collection01/IMO/_git/Normalize-search</PackageProjectUrl>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <Authors>TeamJARVIS</Authors>
+    <PackageTags>IMO, Normalize, Search, SDK</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JsonSubTypes" Version="1.5.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="Polly" Version="7.2.1" />
+    <PackageReference Include="RestSharp" Version="106.10.1" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.5.0" />
+  </ItemGroup>
+</Project>
